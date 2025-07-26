@@ -7,7 +7,7 @@ import requests
 
 app = Flask(__name__)
 
-proxy = {"https": "0.0.0.0:8080"}
+proxy = {"https": "0.0.0.0"}
 
 stop_event = Event()
 worker_thread = None
